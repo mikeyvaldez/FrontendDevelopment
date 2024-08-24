@@ -15,3 +15,17 @@ body {
     width: 80%;
     background-color: burlywood;
 }
+
+.flavor {
+    text-align: left;
+    width: 50%;
+}
+
+.price {
+    text-align: right;
+    width: 50%;
+}
+
+.item p {
+    display: inline-block;
+}
