@@ -21,6 +21,7 @@
         </header>
         <main>
             <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+
                 <section role="region" aria-labelledby="student-info">
                     <h2 id="student-info">Student Info</h2>
                     <div class="info">
@@ -36,12 +37,53 @@
                         <input type="date" name="birth-date" id="date-of-birth" />
                     </div>
                 </section>
+
                 <section role="region" aria-labelledby="html-questions">
                     <h2 id="html-questions">HTML</h2>
+                    <div class="question-block">
+                        <h3><span class="sr-only"></span>1</h3>
+                        <fieldset class="question">
+                            <legend>
+                                The legend element represents a caption for the content of
+                                its parent fieldset element
+                            </legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label>
+                                        <input type="radio" />
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" />
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div><div class="question-block"></div>
+                        <h3><span class="sr-only"></span>2</h3>
+                        <fieldset class="question">
+                            <legend></legend>
+                            <ul>
+                                <li>
+                                    <label>
+                                        <input type="radio" />
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" />
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
                 </section>
+
                 <section role="region" aria-labelledby="css-questions">
                     <h2 id="css-questions">CSS</h2>
                 </section>
+
             </form>
         </main>
     </body>
