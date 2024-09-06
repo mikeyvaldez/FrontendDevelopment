@@ -26,11 +26,11 @@
                     <h2 id="student-info">Student Info</h2>
                     <div class="info">
                         <label for="student-name">Name:</label>
-                        <input type="text" name="student-name" id="student-name" placeholder="e.g Mike Wizowski" />
+                        <input type="text" name="student-name" id="student-name" />
                     </div>
                     <div class="info">
                         <label for="student-email">Email:</label>
-                        <input type="date" name="student-email" id="email" />
+                        <input type="email" name="student-email" id="email" />
                     </div>
                     <div class="info">
                         <label for="birth-date">Date of Birth:</label>
@@ -49,13 +49,15 @@
                             </legend>
                             <ul class="answers-list">
                                 <li>
-                                    <label>
-                                        <input type="radio" />
+                                    <label for="q1-a1">
+                                        <input type="radio" id="q1-a1" value="true" />
+                                        True
                                     </label>
                                 </li>
                                 <li>
-                                    <label>
-                                        <input type="radio" />
+                                    <label for="q1-a2">
+                                        <input type="radio" id="q1-a2" value="false" />
+                                        False
                                     </label>
                                 </li>
                             </ul>
@@ -66,13 +68,15 @@
                             <legend></legend>
                             <ul>
                                 <li>
-                                    <label>
-                                        <input type="radio" />
+                                    <label for="q2-a1">
+                                        <input type="radio" id="q2-a1" value="true" />
+                                        True
                                     </label>
                                 </li>
                                 <li>
-                                    <label>
-                                        <input type="radio" />
+                                    <label for="q2-a2">
+                                        <input type="radio" id="q2-a2" value="false" />
+                                        False
                                     </label>
                                 </li>
                             </ul>
