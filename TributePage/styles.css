@@ -1,0 +1,65 @@
+body{
+    font-family: 'Lobster';
+    background-image: url(http://commarato.com/imgth/openroad-1024.jpg);  
+  }
+  
+  header{
+    text-align: center;
+    color: white; 
+  }
+  h1{
+    font-family: 'Lobster', times new roman;
+    font-size: 80px
+  }
+  h2{
+    color:red;
+  }
+  section{
+    text-align: center;
+    
+  }
+  h3{
+    font-size: 50px;
+    font-family: bold;
+    color: white;
+  }
+  
+  img {
+    border-radius: 100%;
+    margin: auto;
+    width: auto;
+    height: auto;
+    background: red;
+    transition: width 2s, height 2s, transform 2s; 
+    transition: width 2s, height 2s, transform 2s;
+    max-width: 100%; 
+    display: block; 
+  }
+  
+  img:hover {
+    width: auto;
+    height: auto;
+    transform: rotate(360deg); 
+    transform: rotate(360deg);
+  }
+  p{
+    background-color: white;
+    border-style: double;
+    border-width: 25px;
+    border-color: black;
+    border-radius: 15%;
+  }
+  a{
+    background-color: black;
+    border-style: dashed;
+    color: blue;
+  }
+  #img-caption{
+    color: red;
+    font-size: 50px;
+  }
+    
+      
+    
+  
+  
