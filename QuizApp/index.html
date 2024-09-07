@@ -50,13 +50,13 @@
                             <ul class="answers-list">
                                 <li>
                                     <label for="q1-a1">
-                                        <input type="radio" id="q1-a1" value="true" />
+                                        <input type="radio" id="q1-a1" value="true" name="q1" />
                                         True
                                     </label>
                                 </li>
                                 <li>
                                     <label for="q1-a2">
-                                        <input type="radio" id="q1-a2" value="false" />
+                                        <input type="radio" id="q1-a2" value="false" name="q1" />
                                         False
                                     </label>
                                 </li>
@@ -69,13 +69,13 @@
                             <ul>
                                 <li>
                                     <label for="q2-a1">
-                                        <input type="radio" id="q2-a1" value="true" />
+                                        <input type="radio" id="q2-a1" value="true" name="q2" />
                                         True
                                     </label>
                                 </li>
                                 <li>
                                     <label for="q2-a2">
-                                        <input type="radio" id="q2-a2" value="false" />
+                                        <input type="radio" id="q2-a2" value="false" name="q2" />
                                         False
                                     </label>
                                 </li>
@@ -86,6 +86,21 @@
 
                 <section role="region" aria-labelledby="css-questions">
                     <h2 id="css-questions">CSS</h2>
+                    <div class="formrow">
+                        <div class="question-block">
+                            Can the CSS margin property accept negative values?
+                        </div>
+                        <div class="answer"></div>
+                        <div class="question-block">
+                            Do you have any questions:
+                        </div>
+                        <div class="answer"></div>
+                        <select required>
+                            <option value="">Select an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
                 </section>
 
             </form>
